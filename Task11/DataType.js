@@ -1,0 +1,10 @@
+let MyName = "Farida";
+console.log(MyName);
+let MyAge = 21;
+console.log(MyAge);
+let MyState= true;
+console.log(MyState);
+let MyHobbies;
+console.log(MyHobbies);
+let Uni = null;
+console.log(Uni);

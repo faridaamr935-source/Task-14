@@ -1,0 +1,25 @@
+.parent{
+    display: grid;
+    background-color: brown;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3,100px);
+}
+.child1{
+    background-color: aqua;
+}
+.child2{
+    background-color: blue;
+}
+.child3{
+    background-color: chartreuse;
+}
+.child4{
+    background-color: blueviolet;
+}
+.child5{
+    background-color: bisque;
+}
+.child6{
+    background-color: cadetblue;
+}
