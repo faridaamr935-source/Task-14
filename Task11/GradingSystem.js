@@ -1,16 +1,21 @@
-let grade=88
-if ( grade>= 90){
-    console.log("Excellent")
-}
-else if ( grade >=80 && grade < 90){
-    console.log("Good")
-}
-else if ( grade >=70 && grade < 80){
-    console.log("Average")
-}
-else if ( grade >=60 && grade < 70){
-    console.log("Pass")
-}
-else {
-    console.log("Fail")
-}
+var me = {
+    fullName: "Farida Amr",
+    age: 21,
+    gender: "Female",
+    job: "Student",
+    salary: 15000,
+    isFreelancer: true,
+    favoriteHobby: {
+        name: "Developer",
+        yearsPracticing: 3,
+        level: "Intermediate",
+        gear: {
+            laptop: "MacBook Pro",
+            monitors: 2
+        }
+    },
+    code: function(language){
+        console.log(`I am coding in ${language}`);
+    }
+};
+console.log(me);
